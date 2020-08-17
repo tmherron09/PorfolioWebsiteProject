@@ -492,3 +492,30 @@ position: absolute;
 }
 
 /* End Coming Soon */
+
+/*  About */
+.about-bg {
+    background-color: #fafafa;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #fafafa);
+    box-shadow:  20px 20px 20px #d8d8d8, 
+             -20px -20px 20px #ffffff;
+}
+
+.about-para {
+    border-radius: 8px;
+    background: #fafafa;
+    box-shadow:  -5px -5px 10px #dfdfdf, 
+                 5px 5px 10px #ffffff;
+}
+/* End About */
+
+
+/* Contact */
+
+.contact-jumbo {
+    border-radius: 0;
+    width: 320px;
+}
+
+/* End Contact */
