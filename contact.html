@@ -21,10 +21,10 @@
         <!-- Sticky Nav -->
         <nav class="navbar navbar-expand-md sticky-top mx-auto py-1 my-nav-bg my-nav-mb" style="overflow: hidden;">
             <div class="container-fluid d-flex flex-row justify-content-between mx-auto">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarSupportedContent">
                     <i class="fa fa-bars"></i>
                 </button>
-                <div class="py-2 navbar-collapse collapse navbarSupportedContent" id="navbarSupportedContent" style="max-width: 150px;">
+                <div class="py-2 navbar-collapse collapse navbarSupportedContent" style="max-width: 150px;">
                     <ul class="navbar-nav">
                         <a href="about.html" class="py-2 px-3 flex-item" style="width: fit-content;">About</a>
                         <a href="projects.html" class="py-2 px-3 flex-item" style="width: fit-content;">Projects</a>
@@ -41,30 +41,48 @@
         </nav>
         <!-- End Sticky Nac -->
 
-        <!-- Intro Card -->
-        <!-- <div class="container-fluid mb-3" style="z-index: -100;"> -->
-            <div class="jumbotron-fluid mb-5" style="z-index: -100;">
+        <!-- Project Cards -->
+<div class="jumbotron mx-5 jumbotron-neum">
 
-            <div class="card intro-card mx-auto my-auto">
-                <div class="row no-gutters">
-                    <div class="col-md-6">
-                        <img src="tmh_portfolio_portrait_cf.png" class="card-img-top h-100 img-fluid img-intro-mobile" alt="...">
-                        <img src="tmh_portfolio_portrait_cf_por.png" class="card-img-top h-100 img-fluid img-intro-lg" alt="...">
 
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card-body d-flex flex-column h-100 justify-content-center" style="max-width: 80%;">
-                            <h1 class="card-title">Hi There</h1>
-                            <h4>I'm Tim, a developer based out of St. Louis.</h4>
-                            <p class="card-text">Former educator, Makerspace Mentor, and life long hobbyist here to bring efficient, well structured solutions to your project.</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                        </div>
-                    </div>
+    <div class=" row">
+        <!-- col-sm-4, phone size will be 100%, everything else, 1/3rd -->
+        <div class="col-lg-4">
+            <div class="card card-neum">
+                <img src="images/chatroom_timsy.png" alt="Chatroom example image" class="img-fluid">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Chatroom</h5>
+                    <p class="card-text">.Net Console app for connecting with friends in a fun and colorful way. Contains code for both server and clients across private ip addresses.</p>
+                    <a href="#" class="card-link">Coming Soon</a>
                 </div>
-                <!-- <div class="img-neum"></div> -->
             </div>
         </div>
-        <!-- End Intro Card -->
+        <div class="col-lg-4">
+            <div class="card card-neum">
+                <img src="images/sodamachine_welcome.png" alt="Soda Machine Project example image" class="img-fluid">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Soda Machine Project</h5>
+                    <p class="card-text">.Net project demonstrating abstract classes and inheritance in the form of a soda vending machine with graphic ASCII UI.</p>
+                    <a href="#" class="card-link">Coming Soon</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card card-neum">
+                <img src="images/customlist_visualstudio.png" alt="CustomerList&lt;T&gt; image" class="img-fluid">
+                <div class="card-body text-center">
+                    <h5 class="card-title">CustomerList&lt;T&gt;</h5>
+                    <p class="card-text">A demonstation of the implementation of a custom list of type generic.</p>
+                    <a href="#" class="card-link">Coming Soon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+        <!-- End Project Cards -->
 
         <!-- Footer -->
         <footer class="jumbotron text-center footer footer-bg" style="margin-bottom:0">
